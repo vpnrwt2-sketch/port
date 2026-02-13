@@ -39,13 +39,9 @@ const Hero: React.FC = () => {
             <div className="relative w-full h-full p-2 bg-gradient-to-tr from-accent to-red-900 shadow-2xl fancy-clip">
               <div className="w-full h-full bg-[#0F0F0F] fancy-clip overflow-hidden">
                 <img
-                  src="https://ibb.co/7t7ds6b7"
+                  src="https://i.ibb.co/Qvs3y1Xs/vipin-formal.png"
                   alt="Vipin Portfolio Visual"
                   className="w-full h-full object-cover transition-all duration-700 hover:scale-110"
-                  onError={(e) => {
-                    // Fallback in case the ImgBB viewer link doesn't resolve as a direct image
-                    (e.target as HTMLImageElement).src = "https://i.ibb.co/Qvs3y1Xs/vipin-formal.png";
-                  }}
                 />
               </div>
             </div>
