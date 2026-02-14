@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
               </div>
             </a>
 
-            <a href="https://drive.google.com/file/d/1VzE8Wtyh0cCcGItcHT5pl6SZA1N0QCrh/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
+            <a href="https://drive.google.com/file/d/1-tM8Q3wa-3FrZr-nB-M8sNvOJol0lbkD/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
               <div className="w-12 h-12 bg-[#1A1A1A] flex items-center justify-center border border-white/5 group-hover:border-accent transition-colors">
                 <Download className="text-accent" size={20} />
               </div>

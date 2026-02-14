@@ -56,7 +56,7 @@ const CircularProgress: React.FC<{ percentage: number; label: string }> = ({ per
 const Skills: React.FC = () => {
   const technicalSkills = [
     'Python', 'C', 'HTML', 'CSS', 'JavaScript', 'MySQL', 'React',
-    'Tailwind', 'Git', 'GitHub', 'VS Code', 'DSA', 'OOPs'
+    'Tailwind', 'Git', 'GitHub', 'VS Code', 'DSA', 'OOPs', 'tkinter', 'Pandas', 'Numpy'
   ];
 
   return (
