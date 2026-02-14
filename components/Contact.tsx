@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin } from 'lucide-react';
+import { Mail, Github, Linkedin, Download } from 'lucide-react';
 
 // Contact component providing social links for reaching out
 const Contact: React.FC = () => {
@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
             I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-8">
             <div className="flex items-center gap-6 group">
               <div className="w-12 h-12 bg-[#1A1A1A] flex items-center justify-center border border-white/5 group-hover:border-accent transition-colors">
                 <Mail className="text-accent" size={20} />
@@ -48,6 +48,16 @@ const Contact: React.FC = () => {
               <div className="text-left">
                 <p className="text-[10px] uppercase font-black text-[#B0B0B0] tracking-widest">LinkedIn</p>
                 <p className="text-white font-bold">Vipin Rawat</p>
+              </div>
+            </a>
+
+            <a href="https://drive.google.com/file/d/1VzE8Wtyh0cCcGItcHT5pl6SZA1N0QCrh/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex items-center gap-6 group">
+              <div className="w-12 h-12 bg-[#1A1A1A] flex items-center justify-center border border-white/5 group-hover:border-accent transition-colors">
+                <Download className="text-accent" size={20} />
+              </div>
+              <div className="text-left">
+                <p className="text-[10px] uppercase font-black text-[#B0B0B0] tracking-widest">Resume</p>
+                <p className="text-white font-bold">Download CV</p>
               </div>
             </a>
           </div>
